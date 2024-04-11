@@ -1,0 +1,61 @@
+/*inicio*/
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    font-family: 'Sans-Bold', sans-serif;
+}
+h1{
+    font-size: 24px;
+}
+
+.caja{
+    margin:0px 20px;
+    border: 2px solid red;
+    width: 75%;
+    height: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen{
+    width: 100%;
+    padding :0px;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+
+.imagen-derecha {
+    width: 100%; 
+    display: block; 
+    margin-bottom: 0; 
+}
+
+.izquierda {
+    width: 64%; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.derecha {
+    width: 35%; 
+    display: inline-block;
+    vertical-align: top;
+}
+img {
+    width: 100%;
+    padding :0px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    /* Estilos específicos para pantallas más grandes (tablets, laptops, etc.) */
+
+  
+    .derecha {
+
+        display: none;
+    }
+}
